@@ -21,7 +21,7 @@ const port = process.env.PORT;
 
 // ✌︎︎ Middleware ✌︎︎ //
 const corsOptions = {
-  origin: "http://localhost:5173", // Replace with your React frontend URL
+  origin: "https://classroom-frontend-done.onrender.com", // Replace with your React frontend URL
   methods: "GET,POST,PUT,DELETE",
   allowedHeaders: "Content-Type,Authorization",
   credentials: true, // Allow cookies or authentication headers
